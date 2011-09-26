@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/usr/bin/python
+
+import os
+import commands
+
+if __name__ == '__main__':
+    pv3d_home = os.environ.get('PV3D_HOME')
+    pv3dutil = pv3d_home + '/bin/mac/pb3dutil.app/Contents/MacOS/pb3dutil'
+    tm_filepath = os.environ.get('TM_FILEPATH')
+    base, ext = os.path.splitext(tm_filepath)
+    if ext == '.pbvk':
+        cmd = '%s %s %s' % (pv3dutil, tm_filepath, base + '.pbasm')
+    elif ext == '.pbmk':
+        cmd = '%s %s %s %s' % (pv3dutil, tm_filepath, base + '_MaterialVertex.pbasm', base + '_Fragment.pbasm')
+    result = commands.getoutput(cmd)
+    if result == '':
+        print 'Compile succeeded.'
+    else:
+        print result
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@b</string>
+	<key>name</key>
+	<string>Compile Kernel</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.pixelbender3d</string>
+	<key>uuid</key>
+	<string>BE735F0A-E16C-49AB-B80B-510BC6C65DEF</string>
+</dict>
+</plist>

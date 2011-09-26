@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>id: "${1:PB3D_POSITION}";</string>
+	<key>name</key>
+	<string>id: PB3D_POSITION</string>
+	<key>scope</key>
+	<string>source.pixelbender3d</string>
+	<key>tabTrigger</key>
+	<string>id</string>
+	<key>uuid</key>
+	<string>31423D58-F0F8-467A-9656-DE01048AE8C7</string>
+</dict>
+</plist>

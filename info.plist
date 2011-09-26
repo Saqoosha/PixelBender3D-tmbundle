@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>BE735F0A-E16C-49AB-B80B-510BC6C65DEF</string>
+			<string>------------------------------------</string>
+			<string>E5A42E46-DBA8-4E58-96E5-215807A70CF3</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>E5A42E46-DBA8-4E58-96E5-215807A70CF3</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>31423D58-F0F8-467A-9656-DE01048AE8C7</string>
+					<string>8BD18F40-5687-4CF4-8DFF-4760098A8921</string>
+					<string>3E934B88-4A28-434B-9053-86A285C1EEFC</string>
+				</array>
+				<key>name</key>
+				<string>id</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>name</key>
+	<string>Pixel Bender 3D</string>
+	<key>ordering</key>
+	<array>
+		<string>0712573C-0BA5-42CC-BA7E-4ACDBD084AC4</string>
+		<string>CB595B00-C527-48BA-9BF8-251E2CC50EEA</string>
+		<string>31423D58-F0F8-467A-9656-DE01048AE8C7</string>
+		<string>8BD18F40-5687-4CF4-8DFF-4760098A8921</string>
+		<string>3E934B88-4A28-434B-9053-86A285C1EEFC</string>
+		<string>BE735F0A-E16C-49AB-B80B-510BC6C65DEF</string>
+		<string>EBDEAB89-A232-4BAB-AAB5-6112B7ACDEAE</string>
+		<string>A14FC8A4-6F58-4C12-8513-9A01E76171D9</string>
+	</array>
+	<key>uuid</key>
+	<string>AA3D7EA7-1654-4A49-8D8A-467B1E12388C</string>
+</dict>
+</plist>

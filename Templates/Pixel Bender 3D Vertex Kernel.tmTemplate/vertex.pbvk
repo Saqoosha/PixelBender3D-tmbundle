@@ -1,0 +1,15 @@
+<languageVersion: 1.0;>
+vertex kernel ${TM_NEW_FILE_BASENAME}
+<
+    namespace: "Pixel Bender 3D examples"; 
+    vendor: "${TM_ORGANIZATION_NAME}"; 
+    version: 1;
+>
+{
+    input vertex float4 vertexPosition <id: "PB3D_POSITION";>;
+    output float4 vertexClipPosition;
+
+    void evaluateVertex() {
+        vertexClipPosition = vertexPosition;
+    }
+}
